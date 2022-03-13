@@ -108,7 +108,8 @@ at::Tensor trilinear_devoxelize_diffR_backward(const at::Tensor grad_y,
   return grad_x;
 }
 
-// pybind11 绑定
-PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
-  m.def("trilinear_devoxelize_diffR_forward", &trilinear_devoxelize_diffR_forward, "TEST forward");
-}
+
+// // pybind11 绑定
+// PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
+//   m.def("forward", &trilinear_devoxelize_diffR_forward, "TEST forward");
+// }
