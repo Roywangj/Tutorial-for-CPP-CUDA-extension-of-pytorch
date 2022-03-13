@@ -35,7 +35,7 @@ import tri_op_cuda
 ```shell
 rm -rf build/
 ```
-1. 重新运行setup.py
+2. 重新运行setup.py
 ```shell
 python setup.py develop
 ```
