@@ -57,7 +57,7 @@ python setup.py develop
 
 
 ---
-留言：本文档用于学习交流pytorch中cuda/cpp编程的一些经验，作者本人也是初学者，有错误请及时指出，万分感谢！
+留言：本文档用于学习交流pytorch中cuda/cpp编程的一些经验，有错误请及时指出，万分感谢！
 
 @author: Wangjie
 
